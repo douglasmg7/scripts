@@ -1,0 +1,21 @@
+# asdf=" s"
+# if [ $asdf ]; then
+# 	echo "if"
+# else
+# 	echo "else"
+# fi
+
+# pids=$(pgrep atom | sort)
+# echo $pids
+# set -- $pids
+# echo $1
+# echo $2
+
+# v=""
+# while [ $v ]; do
+# 	echo $v
+# 	v=""
+# done
+x='2'
+echo $(test -z $x )
+echo $?
