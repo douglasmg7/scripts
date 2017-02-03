@@ -5,7 +5,7 @@
 trap "just a moment" SIGTERM
 
 # list process
-for process in firefox chromium Telegram atom ; do
+for process in firefox chromium Telegram atom xfce4-terminal; do
 	# kill each process with the same name
 	pids=$(pgrep $process | sort)
 	set -- $pids
