@@ -1,0 +1,1 @@
+sudo yarn global add bower gulp livereload pug-cli express-generator json-server http-server npm-check-updates
