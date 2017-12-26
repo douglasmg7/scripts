@@ -1,0 +1,16 @@
+# A simple shell script to rip an audio CD and create MP3s using lame
+# and cdparanoia.
+# ----------------------------------------------------------------------------
+# Written by Vivek Gite  and WS
+# (c) 2011 nixCraft under GNU GPL v2.0+
+# ----------------------------------------------------------------------------
+read -p "Starting in 5 seconds (to abort press CTRL + C)" -t 5
+ 
+rc=0
+i=
+if ! cdparanoia -B; then
+ echo "cdparanoia ended with error, bailing out" 1>&2
+ exit 1
+fi
+ 
+exit $rc
