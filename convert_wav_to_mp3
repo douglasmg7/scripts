@@ -1,0 +1,12 @@
+# A simple shell script to convert wav to mp3
+
+for i in *.wav; do
+ if lame --vbr-new -q 0 "$i" "${i%%.cdda.wav}.mp3"; then
+ rm -f "$i"
+ else
+ echo "Could not encode $i" 1>&2
+ ((rc++))
+ fi
+done
+ 
+exit $rc
