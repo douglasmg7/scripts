@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Make gpg keys backup in two ways.
+mkdir gpg_backup && cd gpg_backup
+echo "Backup will be created into folder gpg_backup"
+
+# Export each key.
+$ gpg -a --export douglasmg7@gmail.com > douglasmg7-public-gpg.key
+$ gpg -a --export-secret-keys douglasmg7@gmail.com > douglasmg7-secret-gpg.key
+$ gpg -a --export-secret-keys zunka@zunka.com.br > zunka-secret-gpg.key
+
+# Backup all folder.
+tar -pczvf gnupg.tar.gz /home/douglasmg7/.gnupg
