@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+for FILE in $@
+do
+  if [ -d $FILE ]
+  then
+    echo This is directory.
+  elif [ -f $FILE ]
+  then
+    echo This is a regular file.
+  fi
+  ls -l $FILE
+done

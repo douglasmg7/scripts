@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if [ -d $1 ]
+then
+  echo This is directory.
+elif [ -f $1 ]
+then
+  echo This is a regular file.
+fi
+
+ls -l $1

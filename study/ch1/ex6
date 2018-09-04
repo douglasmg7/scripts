@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+read -p "Entry with a file name: " FILE
+
+if [ -d $FILE ]
+then
+  echo This is directory.
+elif [ -f $FILE ]
+then
+  echo This is a regular file.
+fi
+
+ls -l $FILE
