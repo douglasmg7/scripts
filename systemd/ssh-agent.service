@@ -1,0 +1,8 @@
+[Unit]
+Description=Example unit.
+
+[Service]
+ExecStart=/home/douglasmg7/script/study/ch1/ex1
+
+[Install]
+WantedBy=default.target
