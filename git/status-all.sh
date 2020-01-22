@@ -14,6 +14,9 @@ dirs=`cat << EOF
 /home/douglasmg7/code/golang/src/github.com/douglasmg7/currency
 /home/douglasmg7/code/golang/src/github.com/douglasmg7/go-study
 /home/douglasmg7/code/golang/src/github.com/douglasmg7/zunkasrv
+/home/douglasmg7/code/golang/src/github.com/douglasmg7/zoomwsc
+/home/douglasmg7/code/golang/src/github.com/douglasmg7/zoomproducts
+/home/douglasmg7/code/golang/src/github.com/douglasmg7/freightsrv
 EOF`
 
 for path in $dirs
