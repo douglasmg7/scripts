@@ -7,15 +7,15 @@ dirs=`cat << EOF
 /home/douglasmg7/code/scripts
 /home/douglasmg7/code/zunka
 /home/douglasmg7/code/cpp-study
-/home/douglasmg7/code/golang/src/github.com/douglasmg7/aldowsc
-/home/douglasmg7/code/golang/src/github.com/douglasmg7/aldoutil
-/home/douglasmg7/code/golang/src/github.com/douglasmg7/bluetang
-/home/douglasmg7/code/golang/src/github.com/douglasmg7/bluewhale
-/home/douglasmg7/code/golang/src/github.com/douglasmg7/currency
-/home/douglasmg7/code/golang/src/github.com/douglasmg7/go-study
-/home/douglasmg7/code/golang/src/github.com/douglasmg7/zunkasrv
-/home/douglasmg7/code/golang/src/github.com/douglasmg7/zoomwsc
-/home/douglasmg7/code/golang/src/github.com/douglasmg7/zoomproducts
+/home/douglasmg7/code/bluetang
+/home/douglasmg7/code/bluewhale
+/home/douglasmg7/code/go-study
+/home/douglasmg7/code/zunka-modules/aldowsc
+/home/douglasmg7/code/zunka-modules/aldoutil
+/home/douglasmg7/code/zunka-modules/currency
+/home/douglasmg7/code/zunka-modules/zunkasrv
+/home/douglasmg7/code/zunka-modules/zoomwsc
+/home/douglasmg7/code/zunka-modules/zoomproducts
 /home/douglasmg7/code/zunka-modules/freightsrv
 EOF`
 
