@@ -26,6 +26,7 @@ dirs=`cat << EOF
 /home/douglasmg7/code/webserver
 /home/douglasmg7/code/zunka_util
 /home/douglasmg7/code/flask-by-example
+/home/douglasmg7/code/python
 EOF`
 
 for path in $dirs
