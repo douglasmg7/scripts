@@ -30,6 +30,7 @@ dirs=`cat << EOF
 /home/douglasmg7/code/data_science
 /home/douglasmg7/code/meli_products
 /home/douglasmg7/code/handytech
+/home/douglasmg7/code/motospeed
 EOF`
 
 for path in $dirs
