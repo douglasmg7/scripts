@@ -30,7 +30,6 @@ dirs=`cat << EOF
 /home/douglasmg7/code/data_science
 /home/douglasmg7/code/meli_products
 /home/douglasmg7/code/handytech
-/home/douglasmg7/code/trading
 /home/douglasmg7/code/motospeed
 /home/douglasmg7/boat/nautica
 EOF`
