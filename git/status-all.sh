@@ -2,37 +2,15 @@
 
 # Dirs to run git s.
 dirs=`cat << EOF
-/home/douglasmg7/dotfiles
-/home/douglasmg7/txt
-/home/douglasmg7/code/scripts
-/home/douglasmg7/code/c
-/home/douglasmg7/code/cpp-study
-/home/douglasmg7/code/go-study
-/home/douglasmg7/code/rust-study
-/home/douglasmg7/code/zunkasite
-/home/douglasmg7/code/bluetang
-/home/douglasmg7/code/bluewhale
-/home/douglasmg7/code/aldowsc
-/home/douglasmg7/code/aldoutil
-/home/douglasmg7/code/currency
-/home/douglasmg7/code/zunkasrv
-/home/douglasmg7/code/zoomwsc
-/home/douglasmg7/code/zoomproducts
-/home/douglasmg7/code/freightsrv
-/home/douglasmg7/code/allnations
-/home/douglasmg7/code/boat_plan
-/home/douglasmg7/code/canvas
-/home/douglasmg7/code/ws
-/home/douglasmg7/code/webserver
-/home/douglasmg7/code/zunka_util
-/home/douglasmg7/code/flask-by-example
-/home/douglasmg7/code/python
-/home/douglasmg7/code/data_science
-/home/douglasmg7/code/meli_products
-/home/douglasmg7/code/handytech
-/home/douglasmg7/code/motospeed
-/home/douglasmg7/code/dropify
-/home/douglasmg7/boat/nautica
+/home/dmg/dotfiles
+/home/dmg/txt
+/home/dmg/code/scripts
+/home/dmg/code/zunkasite
+/home/dmg/code/zunkasrv
+/home/dmg/code/zunka_util
+/home/dmg/code/python
+/home/dmg/code/data_science
+/home/dmg/code/meli_products
 EOF`
 
 for path in $dirs
