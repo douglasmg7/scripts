@@ -11,6 +11,7 @@ dirs=`cat << EOF
 /home/dmg/code/python
 /home/dmg/code/data_science
 /home/dmg/code/meli_products
+/home/dmg/code/snippetbox
 EOF`
 
 for path in $dirs
