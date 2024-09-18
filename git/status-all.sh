@@ -2,16 +2,18 @@
 
 # Dirs to run git s.
 dirs=`cat << EOF
-/home/dmg/dotfiles
-/home/dmg/txt
-/home/dmg/code/scripts
-/home/dmg/code/zunkasite
-/home/dmg/code/zunkasrv
-/home/dmg/code/zunka_util
-/home/dmg/code/python
-/home/dmg/code/data_science
-/home/dmg/code/meli_products
-/home/dmg/code/snippetbox
+/home/douglasmg7/dotfiles
+/home/douglasmg7/txt
+/home/douglasmg7/code/scripts
+/home/douglasmg7/code/zunkasite
+/home/douglasmg7/code/zunkasrv
+/home/douglasmg7/code/zunka_util
+/home/douglasmg7/code/python
+/home/douglasmg7/code/data_science
+/home/douglasmg7/code/meli_products
+/home/douglasmg7/code/snippetbox
+/home/douglasmg7/code/gin_rest_api
+/home/douglasmg7/code/htmx-course
 EOF`
 
 for path in $dirs
