@@ -9,7 +9,7 @@ dirs=`cat << EOF
 /home/douglasmg7/code/zunkasrv
 /home/douglasmg7/code/zunka_util
 /home/douglasmg7/code/python
-/home/douglasmg7/code/data_science
+/home/douglasmg7/code/ds
 /home/douglasmg7/code/meli_products
 /home/douglasmg7/code/snippetbox
 /home/douglasmg7/code/gin_rest_api
