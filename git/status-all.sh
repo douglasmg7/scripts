@@ -4,20 +4,15 @@
 dirs=`cat << EOF
 /home/douglasmg7/dotfiles
 /home/douglasmg7/txt
-/home/douglasmg7/code/scripts
-/home/douglasmg7/code/bash
-/home/douglasmg7/code/zunkasite
-/home/douglasmg7/code/zunkasrv
-/home/douglasmg7/code/zunka_util
-/home/douglasmg7/code/python
+/home/douglasmg7/code/c
+/home/douglasmg7/code/cpp-study
 /home/douglasmg7/code/data_science
-/home/douglasmg7/code/meli_products
-/home/douglasmg7/code/snippetbox
-/home/douglasmg7/code/gin_rest_api
 /home/douglasmg7/code/htmx-course
 /home/douglasmg7/code/pydantic_v2
+/home/douglasmg7/code/python
 /home/douglasmg7/code/python-fundamentals
-/home/douglasmg7/code/fastapi_todo_app
+/home/douglasmg7/code/rust-study
+/home/douglasmg7/code/scripts
 EOF`
 
 for path in $dirs
