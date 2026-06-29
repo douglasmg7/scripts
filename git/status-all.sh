@@ -13,6 +13,7 @@ dirs=`cat << EOF
 /home/douglasmg7/code/python-fundamentals
 /home/douglasmg7/code/rust-study
 /home/douglasmg7/code/scripts
+/home/douglasmg7/code/snippetbox
 EOF`
 
 for path in $dirs
