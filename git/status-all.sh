@@ -14,6 +14,8 @@ dirs=`cat << EOF
 /home/douglasmg7/code/rust-study
 /home/douglasmg7/code/scripts
 /home/douglasmg7/code/snippetbox
+/home/douglasmg7/code/monthly_challenges
+/home/douglasmg7/code/my_site
 EOF`
 
 for path in $dirs
