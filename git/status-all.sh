@@ -16,6 +16,8 @@ dirs=`cat << EOF
 /home/douglasmg7/code/snippetbox
 /home/douglasmg7/code/monthly_challenges
 /home/douglasmg7/code/my_site
+/home/douglasmg7/code/natours
+/home/douglasmg7/code/book_store
 EOF`
 
 for path in $dirs
