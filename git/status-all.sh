@@ -18,6 +18,8 @@ dirs=`cat << EOF
 /home/douglasmg7/code/my_site
 /home/douglasmg7/code/natours
 /home/douglasmg7/code/book_store
+/home/douglasmg7/code/understanding_typescript
+/home/douglasmg7/code/responsive_html_css
 EOF`
 
 for path in $dirs
