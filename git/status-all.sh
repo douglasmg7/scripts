@@ -20,6 +20,12 @@ dirs=`cat << EOF
 /home/douglasmg7/code/book_store
 /home/douglasmg7/code/understanding_typescript
 /home/douglasmg7/code/responsive_html_css
+/home/douglasmg7/code/css_the_complete_guide
+/home/douglasmg7/code/react_the_complete_guide
+/home/douglasmg7/code/100-days-python
+/home/douglasmg7/code/go-study
+/home/douglasmg7/code/microservices_with_nodejs_and_react
+/home/douglasmg7/code/nodejs_the_complete_guide
 EOF`
 
 for path in $dirs
