@@ -10,7 +10,7 @@ dirs=`cat << EOF
 /home/douglasmg7/code/htmx-course
 /home/douglasmg7/code/pydantic_v2
 /home/douglasmg7/code/python
-/home/douglasmg7/code/python-fundamentals
+/home/douglasmg7/code/python_fundamentals
 /home/douglasmg7/code/rust-study
 /home/douglasmg7/code/scripts
 /home/douglasmg7/code/snippetbox
