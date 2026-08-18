@@ -29,6 +29,7 @@ dirs=`cat << EOF
 /home/douglasmg7/code/python_the_pratical_guide
 /home/douglasmg7/code/concurrency_in_go
 /home/douglasmg7/code/learn_go_with_tests
+/home/douglasmg7/code/playwright_and_pytest
 EOF`
 
 for path in $dirs
